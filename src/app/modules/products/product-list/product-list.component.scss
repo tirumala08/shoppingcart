@@ -1,0 +1,125 @@
+// Main baner
+$fontColor: #2b7de2;
+/* Container holding the image and the text */
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+/* Bottom left text */
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+/* Top left text */
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+/* Top right text */
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+/* Bottom right text */
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+// Header product
+.product {
+  margin-bottom: 20px;
+  font-size: 12px;
+  cursor: pointer;
+  padding: 10px 70px;
+  // .itemProdcut {
+  //   border-radius: 50px;
+  //   border: 2px solid $fontColor;
+  //   background-color: #dadada;
+  // }
+  &:hover {
+    .itemImage img {
+      border-radius: 0 0 50px 50px;
+      text-shadow: 2px 2px;
+      transition: all .4s ease;
+    }
+  }
+  .itemProduct {
+    position: relative;
+    width: 350px;
+    height: 550px;
+    background: white;
+    border-radius: 0% 0% 0% 0% / 0% 0% 0% 0% ;
+    color: white;
+    box-shadow: 20px 20px rgba(0,0,0,.15);
+    transition: all .4s ease;
+  }
+  .itemProduct:hover {
+    border-radius: 0% 0% 50% 50% / 0% 0% 5% 5% ;
+    box-shadow: 10px 10px rgba(0,0,0,.25);
+  }
+
+  .productname {
+    position: absolute;
+    width: 304px;
+    height: 50px;
+    font-size: 17px;
+    color: white;
+    background: #6f6f6f73;
+    top: 16px;
+    right: 25%;
+    left: 50%;
+    margin-left: -150px;
+  }
+  .itemImage {
+    display: block;
+    margin: auto;
+    img {
+      box-shadow: 10px 11px rgba(0,0,0,.15);
+    }
+  }
+  .itemprice {
+    position: absolute;
+    width: 104px;
+    height: 28px;
+    font-size: 17px;
+    color: white;
+    background: #444;
+    bottom: 16px;
+    right: 25%;
+    left: 50%;
+    margin-left: -150px;
+  }
+}
+.carousel-inner {
+  .carousel-item {
+    img {
+      align-items: center;
+      display: block;
+      margin: auto;
+    }
+  }
+}
+#demo {
+  background-color: #9a9a9a80;
+}
+// .carousel-control-prev-icon {
+//   background: black url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' width='8' height='8' viewBox='0 0 8 8'%3e%3cpath d='M2.75 0l-1.5 1.5L3.75 4l-2.5 2.5L2.75 8l4-4-4-4z'/%3e%3c/svg%3e") no-repeat;
+// }

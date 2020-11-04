@@ -1,0 +1,33 @@
+// Banner
+$fontColor: #2b7de2;
+
+.banner {
+  width:60%;
+  max-height: 300px;
+  text-align: center;
+  border: 2px solid #f0f0f0;
+  color: $fontColor;
+  margin: auto;
+  padding-top:10px;
+  padding-bottom:25px;
+}
+
+.banner-text{
+font-family:lato;
+font-weight:300;
+font-size:17px;
+}
+
+.banner-header{
+font-family:lato;
+font-size: 3.5em;
+}
+
+.btn-info.btn-outline{
+margin-top:10px;
+background-color:transparent;
+color: $fontColor;
+padding-left:70px;
+padding-right:70px;
+font-weight:300;
+}
